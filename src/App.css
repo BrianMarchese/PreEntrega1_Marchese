@@ -1,4 +1,5 @@
 .App {
+ /*  height: 168vh; */
   text-align: center;
   font-family: 'Agdasima', sans-serif;
   font-size: large;
@@ -15,11 +16,24 @@
 nav {
   background-image: linear-gradient(to bottom, #000000, #161117, #181f2b, #092f3b, #033f3c);
 }
+.navbar-nav .nav-link.active{
+  color:#64e8fa;
+}
 
 .nav-link {
   color: white;
 }
 
-.bienvenida{
-  margin-top: 20px;
+
+.card{
+  width: 20rem;
+/*   display: flex;
+  flex-wrap: wrap;
+  justify-content: center; */
+}
+
+.CardItem{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+   grid-gap: 1%; 
 }
