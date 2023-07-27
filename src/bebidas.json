@@ -15,7 +15,7 @@
         "categoria": "Vinos",
         "imagen": "../assets/vinos/vino-vinas-alvear.jpg",
         "stock": 10,
-        "descripcion": "Vino tinco con graduacion alcoholica de 13.20%."
+        "descripcion": "Vino tinto con graduacion alcoholica de 13.20%."
     },
     {   
         "id":3,
