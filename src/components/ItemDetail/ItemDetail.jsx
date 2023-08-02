@@ -1,17 +1,23 @@
-import { useState } from 'react';
+import { useContext, useState } from 'react';
 import ItemCount from '../ItemCount/ItemCount';
 import { Link } from 'react-router-dom';
+import { CarContext } from '../../Context/CartContext';
 const ItemDetail = ({id, nombre, imagen, categoria, descripcion, precio, stock}) =>{
     
     const [quantityAdded, setQuantityAdded] = useState(0);
 
+    const { addItem } = useContext(CarContext)
     const handleOnAdd = (quantity) => {
 
         setQuantityAdded(quantity)
+
+        const item = {id, nombre, precio, imagen, descripcion}
+
+        addItem(item, quantity)
     }
     return(
             <div className="card container">
-                <img src={imagen} className="card-img-top" />
+                <img src={imagen} alt={nombre} className="card-img-top" />
                 <div className="card-body">
                 <p className="Stock">
                                     Stock Disponible: {stock}

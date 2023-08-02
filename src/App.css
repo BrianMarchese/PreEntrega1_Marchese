@@ -6,26 +6,6 @@
   font-size: large;
 }
 
-.nav-link {
-  color:  aliceblue;
-}
-
-.nav-link:hover{
-  color: #0aabc0;
-}
-
-nav {
-  background-image: linear-gradient(to bottom, #000000, #161117, #181f2b, #092f3b, #033f3c);
-}
-.navbar-nav .nav-link.active{
-  color:#64e8fa;
-}
-
-.nav-link {
-  color: white;
-}
-
-
 .card{
   width: 20rem;
 /*   display: flex;

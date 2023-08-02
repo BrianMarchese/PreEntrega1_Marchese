@@ -1,3 +1,19 @@
-.carrito{
-    color: white;
+.carrito {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    top: 1px;
+  }
+  
+.CartWidget{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.CartWidget:hover{
+    color:#64e8fa;
+}
+
+.cantidadProductos{
+    margin-top: 15px;
 }
