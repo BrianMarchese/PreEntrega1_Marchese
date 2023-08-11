@@ -3,7 +3,7 @@ import "./Item.css"
 const Item = ({id,nombre,imagen,precio,stock,descripcion,categoria}) =>{
     return(
       
-      <div className="container card-group">
+      <div className="container card-group" style={{ width: "19rem" }}>
           <div className="card">
                 <div className="card-header">
                     {nombre}

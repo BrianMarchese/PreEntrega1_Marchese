@@ -1,0 +1,30 @@
+.form-container {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.Label{
+    margin-bottom: 10px;
+}
+
+.form-label {
+    color: aliceblue;
+    display: block;
+}
+
+.form-input {
+    width: 100%;
+    padding: 2px;
+    border: 4px solid #1fdab4;
+    border-radius: 4px;
+}
+
+form{
+    padding: 16px;
+    background-color: #21ad91;
+    border-radius: 2%;
+}
+
+ .form-group{
+    background-image: linear-gradient(to top, #000000, #161117, #181f2b, #092f3b, #033f3c);
+ }

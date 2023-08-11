@@ -1,0 +1,14 @@
+.confirmacion{
+    padding-top: 1%;
+}
+
+.orden {
+    background-color: #22e7c0;
+}
+
+.loader-checkout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}

@@ -1,6 +1,4 @@
 .App {
-  /* background-image: linear-gradient(to top, #000000, #161117, #181f2b, #092f3b, #033f3c); */
-  /* height: 168vh; */
   text-align: center;
   font-family: 'Agdasima', sans-serif;
   font-size: large;
@@ -11,10 +9,4 @@
 /*   display: flex;
   flex-wrap: wrap;
   justify-content: center; */
-}
-
-.CardItem{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
-   grid-gap: 1%; 
 }
