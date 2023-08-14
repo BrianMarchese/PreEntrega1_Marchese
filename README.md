@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# 🍸 La Barrica - Brian Marchese
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> **Esta es una página de tienda de bebidas que fue creada por mi usando ReactJS.**
 
-## Available Scripts
+### Como probar el proyecto
 
-In the project directory, you can run:
+Para probar el proyecto debo ejecutar el comando ``npm install`` en la terminal para instalar todas las dependencias del proyecto y luego ejecutar el comando ``npm start`` para poder levantar el proyecto y poder visualizar la página.
 
-### `npm start`
+### Contenido del proyecto:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* NavBar
+* ItemListContainer
+* ItemList
+* ItemDetailContainer
+* ItemDetail
+* CartWidget
+* Checkout
+* Integración de firebase
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Funcionalidades
 
-### `npm test`
+> **Navegar por las distintas categorías de bebidas:** Al clickear en las distintas categorías de bebidas mostrara solo las que coincidan con es categoría seleccionada.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+> **Ver el detalle de cada producto:** Cada producto cuenta con un botón **Ver Más** el cual haciendo click les mostrara el producto de una forma más completa.
 
-### `npm run build`
+> **Elegir la cantidad de productos a poner en el carrito:** Una vez ingresado al detalle del producto podemos elegir la cantidad que queremos agregar al carrito dependiendo el stock del producto seleccionado, una vez elegida la cantidad le damos a agregar al carrito y la opción de agregar ese producto desaparece.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+> **Ir al carrito:** Una vez agregado nuestros productos, arriba a la derecha se habilitara nuestro carrito que clickeando ahí podremos ver los productos que elegimos, en el mismo podremos  **Eliminar un producto**, **Vaciar el carrito** o seguir con la compra.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+> **Checkout:** Cuando ya hayamos elegido las bebidas que queremos adquirir le vamos a dar al botón **Terminar compra** el cual nos va a llevar a el formulario de Checkout para rellenarlo de nuestros datos para la compra, al completar ese formulario y darle a **Crear Orden** nos dará el ID de compra para poder seguir nuestro pedido.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Aclaración
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+En los productos del Firebase no están todos los productos que agregue en mi JSON pero luego los agregare para que haya más variedad de bebidas en cada una de sus categorías.
