@@ -1,6 +1,6 @@
-# 🍸 La Barrica - Brian Marchese
+# 🍸 La Barrica - Brian Marchese
 
-> **Esta es una página de tienda de bebidas que fue creada por mi usando ReactJS.**
+Esta es una página de tienda de bebidas que fue creada por mi usando ReactJS.
 
 ### Como probar el proyecto
 
